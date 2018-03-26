@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 28 Formulario - JavaScript</title>
+
+    <meta charset="utf-8">
+    <script>
+        function ver() {
+            var nome1 = formulario.nome.value;
+            var email1 = formulario.email.value;
+
+            if (nome1 == "" || email1 == "") {
+                alert("Por favor preencha todos os campos.");
+            } else {
+                alert("Dados a serem enviados: " + nome1 + " e " + email1);
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <form name="formulario">
+        <p><label>Nome</label> <input type="text" name="nome"></p>
+        <p><label>Email</label> <input type="text" name="email"></p>
+        <p><input type="submit" value="Enviar" onClick="ver()"></p>
+    </form>
+</body>
+
+</html>

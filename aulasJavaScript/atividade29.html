@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 29 Length - JavaScript</title>
+    
+<!--    Length = Comprimento    -->
+
+    <meta charset="utf-8">
+    <script>
+        function ver() {
+            var checar = formulario.cep.value;
+            if(checar.length==9){
+                formulario.action="contato.php";
+                formulario.method="post";
+                formulario.submit();
+            }else{
+                alert("CEP Incorreto");
+            }
+        
+        }
+    </script>
+</head>
+
+<body>
+    <form name="formulario">
+        <p><input type="text" name="cep" placeholder="00000-000" maxlength="9"></p>
+        <p><input type="button" value="Verificar" onClick="ver()"></p>
+    </form>
+</body>
+
+</html>

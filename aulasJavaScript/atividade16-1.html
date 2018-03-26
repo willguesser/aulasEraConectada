@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 16 Array - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>for / .push / .join</h1><br>
+
+    <script>
+        var nomes = [];
+        var nome;
+        var info;
+
+        for (info = 1; info < 6; info++) {
+            nome = prompt("Digite um nome");
+            nomes.push(info + " - " + nome);
+
+        }
+
+
+        document.write(nomes.join("<br>"));
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 22 Método - JavaScript</title>
+    <meta charset="utf-8">
+    <script>
+        function arredonda(form) {
+            var num = eval(form.txt.value);
+            document.write("<p style='color:#00FF00'>" + Math.round(num) + "</p>");
+        }
+
+    </script>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="txt" size="5">
+        <input type="button" value="Arredondar" onClick="arredonda(form)">
+    </form>
+
+
+</body>
+
+</html>

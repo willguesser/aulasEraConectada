@@ -1,0 +1,22 @@
+Teste
+
+1 - Crie uma função que altera a cor do plano de fundo do documento para azul(qualquer tom).
+
+2 - Crie um sistema que registre dados de 3 funcionários contendo os dados abaixo:
+	- Nome
+	- Idade
+	- Cargo
+	- Salário Bruto
+	- Valor de desconto do vale transporte (6% do salário)
+	- valor do INSS sob as condições abaixo:
+		- salario maior que R$ 5.000,00 desconta 11%
+		- salario maior que entre R$ 3.000,00 e R$ 4.999.99 descontar 8%
+		- salaio menor que R$ 3.000,00 descontar 3%
+	- Salario Líquido (salarioBruto subtraindo os descontos)
+
+
+3 - Crie um formulário que adicione o nome e idade de 3 pessoas. No final exiba na tela o nome registrado, idade e a média das idades.
+
+4 - Crie um sistema que registre o nome da pessoa. E em seguida exiba na tela. "Bom dia nomedapessoa! Hoje é 'data atual'".
+
+5 - Crie um sistema de venda que calcule o preço de 5 produtos (sapato, calça, camiseta, vestido e meias) e abra condições de parcelamento.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 30 Loja Virtual - JavaScript</title>
+
+    <!--    
+        onChange = Altera valor quando o campo é preenchido
+        onFocus = Campo onde é feito o cálculo
+        parseFloat = Aceita casa decimal
+        this.blur = Proibe a alteração deste campo    
+    -->
+
+    <meta charset="utf-8">
+    <script>
+        function calculo() {
+            var qtdprod1, preço, qtdprod2, qtdprod3, qtdprod4;
+
+            qtdprod1 = parseFloat(form1.qtd1.value) * 35;
+            qtdprod2 = parseFloat(form1.qtd2.value) * 30;
+            qtdprod3 = parseFloat(form1.qtd3.value) * 22;
+            qtdprod4 = parseFloat(form1.qtd4.value) * 10;
+            preço = qtdprod1 + qtdprod2 + qtdprod3 + qtdprod4;
+            form1.total.value = preço;
+        }
+
+    </script>
+</head>
+
+<body>
+    <form name="form1" method="post" action="">
+        <p><input type="text" name="qtd1" size="2" value="0" onChange="calculo()"> Produto 1 - R$ 35,00 un</p>
+        <p><input type="text" name="qtd2" size="2" value="0" onChange="calculo()"> Produto 2 - R$ 30,00 un</p>
+        <p><input type="text" name="qtd3" size="2" value="0" onChange="calculo()"> Produto 3 - R$ 22,00 un</p>
+        <p><input type="text" name="qtd4" size="2" value="0" onChange="calculo()"> Produto 4 - R$ 10,00 un</p>
+        <p><input type="text" name="total" size="4" value="00" onFocus="this.blur()">,00</p>
+        <p><input type="submit" value "Enviar"></p>
+    </form>
+</body>
+
+</html>

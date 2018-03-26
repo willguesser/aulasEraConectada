@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 13 Estrutura de repetição - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>for / if / else</h1><br>
+    <h2>Relatório de funcionários e salário líquido</h2><br>
+
+    <script>
+        var num;
+        var nome;
+        var cargo;
+        var salario;
+        var desconto;
+        var salarioliquido;
+
+        for (num = 1; num < 4; num++) {
+            nome = prompt("Digite o nome");
+            cargo = prompt("Digite o cargo");
+            salario = prompt("Digite o salário");
+
+            if (salario >= 3000) {
+                desconto = salario * 0.11;
+            } else {
+                desconto = salario * 0.08;
+            }
+
+            salarioliquido = salario - desconto;
+
+            document.write(
+                "<p>O funcionário " + nome + ", que ocupa a função de " + cargo + ", com os descontos do INSS, terá um salário líquido no valor de " + "R$ " + salarioliquido + ",00.</p>");
+        }
+
+    </script>
+
+</body>
+
+</html>

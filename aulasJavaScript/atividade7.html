@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 7 - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Competição de UFC:</h1>
+
+    <script>
+        var nome, idade, peso, categoria;
+
+        nome = prompt("Digite seu nome")
+        idade = prompt("Digite sua idade")
+        peso = prompt("Digite seu peso")
+
+        if (peso >= 93) {
+            categoria = "<strong> Peso Pesado </strong>";
+        } else if (peso >= 83) {
+            categoria = "<strong> Peso Meio-Pesado </strong>";
+        } else if (peso >= 77.1) {
+            categoria = "<strong> Peso Médio </strong>";
+        } else if (peso >= 70.3) {
+            categoria = "<strong> Peso Meio-Médio </strong>";
+        } else {
+            categoria = "<strong> Peso Leve </strong>";
+        }
+
+        document.write(
+            "Nome: " + nome + "<br><br>" +
+            "Idade: " + idade + "<br><br>" +
+            "Peso: " + peso + "<br><br>" +
+            "Categoria: " + categoria
+        )
+
+    </script>
+
+</body>
+
+</html>

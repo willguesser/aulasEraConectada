@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 23 Método - JavaScript</title>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <h1>Data</h1>
+
+    <script>
+        data1 = new Date();
+
+        var semana = data1.getDay();
+        var dia = data1.getDate();
+        var mes = data1.getMonth();
+        var ano = data1.getFullYear();
+
+        var diaSemana;
+        var diaMes;
+
+
+
+        if (semana == 0) {
+            diaSemana = "Domingo";
+        } else if (semana == 1) {
+            diaSemana = "Segunda-Feira";
+        } else if (semana == 2) {
+            diaSemana = "Terça-Feira";
+        } else if (semana == 3) {
+            diaSemana = "Quarta-Feira";
+        } else if (semana == 4) {
+            diaSemana = "Quinta-Feira";
+        } else if (semana == 5) {
+            diaSemana = "Sexta-Feira";
+        } else {
+            diaSemana = "Sábado";
+        }
+
+
+        if (mes == 0) {
+            diaMes = "Janeiro";
+        } else if (mes == 1) {
+            diaMes = "Fevereiro";
+        } else if (mes == 2) {
+            diaMes = "Março";
+        } else if (mes == 3) {
+            diaMes = "Abril";
+        } else if (mes == 4) {
+            diaMes = "Maio";
+        } else if (mes == 5) {
+            diaMes = "Junho";
+        } else if (mes == 6) {
+            diaMes = "Julho";
+        } else if (mes == 7) {
+            diaMes = "Agosto";
+        } else if (mes == 8) {
+            diaMes = "Setembro";
+        } else if (mes == 9) {
+            diaMes = "Outubro";
+        } else if (mes == 10) {
+            diaMes = "Novembro";
+        } else {
+            diaMes = "Dezembro";
+        }
+
+
+        document.write("<p>Hoje é: " + diaSemana + ", " + dia + " de " + diaMes + " de " + ano + ".</p>");
+
+    </script>
+</body>
+
+</html>

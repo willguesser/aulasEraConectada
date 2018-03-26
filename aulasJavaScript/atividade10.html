@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 10 - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Desconto INSS</h1>
+
+    <script>
+        var salario = prompt("Digite aqui o valor do seu salário");
+        var desconto;
+
+        switch (salario) {
+            case "1500":
+                desconto = salario * 0.06;
+                break;
+
+            case "800":
+                desconto = salario * 0.02;
+                break;
+        }
+
+        document.write("O valor de seu desconto é: <strong>R$" + parseFloat(desconto).toFixed(2) + "</strong>");
+
+    </script>
+
+</body>
+
+</html>

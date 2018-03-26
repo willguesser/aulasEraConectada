@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 23 Método - JavaScript</title>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <h1>Dia da Semana</h1>
+
+    <script>
+        data1 = new Date();
+        var dia_semana = data1.getDay();
+        var diadefeira
+
+
+        if (dia_semana == 0) {
+            diadefeira = "Domingo";
+        } else if (dia_semana == 1) {
+            diadefeira = "Segunda-Feira";
+        } else if (dia_semana == 2) {
+            diadefeira = "Terça-Feira";
+        } else if (dia_semana == 3) {
+            diadefeira = "Quarta-Feira";
+        } else if (dia_semana == 4) {
+            diadefeira = "Quinta-Feira";
+        } else if (dia_semana == 5) {
+            diadefeira = "Sexta-Feira";
+        } else {
+            diadefeira = "Sábado";
+        }
+
+        document.write("Hoje é: " + diadefeira);
+
+    </script>
+</body>
+
+</html>

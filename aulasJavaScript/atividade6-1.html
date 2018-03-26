@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade 6 - JavaScript</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Cadastros de Pessoas: </h1>
+
+	<script>
+		var nome, sexo, idade, resultado;
+
+		nome = prompt("Digite o nome");
+		sexo = prompt("Digite M para masculino e F para feminino");
+		idade = prompt("Digite a idade");
+
+		if(sexo == "M" || sexo == "m"){
+			resultado = "Masculino";
+		}else{
+            resultado = "Feminino"
+        }
+
+		document.write(
+				"<p>Nome " + nome + "</p>" +
+				"<p>Sexo Biológico" + resultado + "</p>" +
+				"<p>Idade " + idade + "</p>"
+
+			)
+
+	</script>
+
+</body>
+</html>

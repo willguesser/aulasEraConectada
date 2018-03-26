@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 5 - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Cadastros de Pessoas: </h1>
+
+    <script>
+        var nome1, nome2, nome3, nome4, idade1, idade2, idade3, idade4, media;
+
+        nome1 = prompt("Digite o nome 1 do candidato");
+        idade1 = parseInt(prompt("Digite a idade do candidato 1"));
+
+        nome2 = prompt("Digite o nome 2 do candidato");
+        idade2 = parseInt(prompt("Digite a idade do candidato 2"));
+
+        nome3 = prompt("Digite o nome 3 do candidato");
+        idade3 = parseInt(prompt("Digite a idade do candidato 3"));
+
+        nome4 = prompt("Digite o nome 4 do candidato");
+        idade4 = parseInt(prompt("Digite a idade do candidato 4"));
+
+        media = (idade1 + idade2 + idade3 + idade4) / 4;
+
+
+        document.write(
+            "<p>Nome do candidato 1: " + nome1 +
+            "<br>Idade do candidato 1: " + idade2 + "</p>" +
+            "<p>Nome do candidato 2: " + nome2 +
+            "<br>Idade do candidato 2: " + idade2 + "</p>" +
+            "<p>Nome do candidato 3: " + nome3 +
+            "<br>Idade do candidato 3: " + idade3 + "</p>" +
+            "<p>Nome do candidato 4: " + nome4 +
+            "<br>Idade do candidato 4: " + idade4 + "</p>" +
+            "<h3>O Cálculo da média das idades é " + media + "</h3>");
+
+    </script>
+
+</body>
+
+</html>

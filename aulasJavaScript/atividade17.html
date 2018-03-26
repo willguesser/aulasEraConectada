@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 17 Array - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>for / .push / .join</h1><br>
+
+    <script>
+        var nomes = [];
+        var nome;
+        var altura;
+        var peso;
+        var info;
+
+        for (info = 1; info < 4; info++) {
+            nome = prompt("Digite o nome");
+            altura = prompt("Digite a altura");
+            peso = prompt("Digite o peso");
+
+            nomes.push(
+                "<p><strong>Cadastro nº " + info + "</strong><br>" +
+                "Nome: " + nome + "<br>" +
+                "Altura: " + altura + "<br>" +
+                "Peso: " + peso + "<br></p>"
+            );
+
+        }
+
+
+        document.write(nomes.join("<br>"));
+
+    </script>
+
+</body>
+
+</html>

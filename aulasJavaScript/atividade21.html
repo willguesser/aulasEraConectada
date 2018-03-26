@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 21 Função - JavaScript</title>
+    <meta charset="utf-8">
+    <script>
+        var sexos = ["Masculino", "Feminino"];
+        var sexo = prompt("Qual é o seu sexo biológico? \nDigite M para Masculino e F para Feminino.");
+
+        function teste() {
+            while (sexo != "M" && sexo != "F") {
+                sexo = prompt("Digite o seu sexo biológico novamente: \nM para Masculino e F para Feminino.");
+            }
+            if (sexo == "M") {
+                sexo = sexos[0];
+            } else {
+                sexo = sexos[1];
+            }
+            return sexo;
+        }
+
+        var valor = teste();
+
+        document.write(valor);
+
+    </script>
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>

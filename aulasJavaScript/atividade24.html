@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 24 Calculadora - JavaScript</title>
+    <meta charset="utf-8">
+    <style>
+        input {
+            background-color: red;
+            width: 50px;
+            height: 50px;
+        }
+
+        .campo {
+            background-color: floralwhite;
+            width: 97%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <form name="calculo">
+        <table border="0">
+            <tr>
+                <td><input name="input" size="18" class="campo"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="um" value=" 1 " onClick="calculo.input.value += '1'">
+                    <input type="button" name="dois" value=" 2 " onClick="calculo.input.value += '2'">
+                    <input type="button" name="tres" value=" 3 " onClick="calculo.input.value += '3'">
+                    <input type="button" name="mais" value=" + " onClick="calculo.input.value += '+'">
+                    <br>
+                    <input type="button" name="quatro" value=" 4 " onClick="calculo.input.value += '4'">
+                    <input type="button" name="cinco" value=" 5 " onClick="calculo.input.value += '5'">
+                    <input type="button" name="seis" value=" 6 " onClick="calculo.input.value += '6'">
+                    <input type="button" name="menos" value=" - " onClick="calculo.input.value += '-'">
+                    <br>
+                    <input type="button" name="sete" value=" 7 " onClick="calculo.input.value += '7'">
+                    <input type="button" name="oito" value=" 8 " onClick="calculo.input.value += '8'">
+                    <input type="button" name="nove" value=" 9 " onClick="calculo.input.value += '9'">
+                    <input type="button" name="vezes" value=" X " onClick="calculo.input.value += '*'">
+                    <br>
+                    <input type="button" name="limpar" value=" C " onClick="calculo.input.value = ''">
+                    <input type="button" name="zero" value=" 0 " onClick="calculo.input.value += '0'">
+                    <input type="button" name="igual" value=" = " onClick="calculo.input.value = eval(calculo.input.value)">
+                    <input type="button" name="divide" value=" / " onClick="calculo.input.value += '/'">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>

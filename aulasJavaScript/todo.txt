@@ -1,0 +1,4 @@
+- 1 - Crie uma função que altera a cor do plano de fundo do documento para azul(qualquer tom).
+- 2 - Crie um sistema que registre dados de 3 funcionários.
+- 3 - Crie um formulário que adicione o nome e idade de 3 pessoas. No final exiba na tela o nome registrado, idade e a média das idades.
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 27 Radio - JavaScript</title>
+    
+<!--    Radio permite assinalar apenas uma alternativa    -->
+   
+    <meta charset="utf-8">
+    <script>
+        function ver() {
+            var caixa1 = formulario.javascript;
+            var caixa2 = formulario.php;
+
+            if (formulario.assunto[0].checked) {
+                alert("Você escolheu a maravilhosa linguagem JavaScript!!!");
+            }
+            if (formulario.assunto[1].checked) {
+                alert("Vixi... escolheu a linguagem da gambiarra PHP.");
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <form name="formulario">
+        <p>Escolha sua linguagem de programação favorita:</p>
+        <p>
+            <input type="radio" name="assunto" value="JavaScript">JavaScript<br>
+            <input type="radio" name="assunto" value="PHP">PHP<br>
+        </p>
+        <p>
+            <input type="button" value="Verificar" onClick="ver()">
+        </p>
+    </form>
+</body>
+
+</html>

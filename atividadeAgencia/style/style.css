@@ -1,0 +1,13 @@
+#email li{
+ display: inline;
+margin-right: 50px;
+}
+
+#icones{
+    text-align: right;
+}
+
+#icones li{
+    display: inline;
+    margin-right: 10px;
+}

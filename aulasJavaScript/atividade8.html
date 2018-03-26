@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 8 - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Calculadora IMC:</h1>
+
+    <script>
+        var nome, peso, altura, imc, resultadoimc;
+        
+        nome = prompt("Digite aqui seu nome")
+        peso = prompt("Digite aqui seu peso")
+        altura = prompt("Digite aqui sua altura")
+        imc = (peso / (altura * altura))
+
+        if (imc >= 40){
+            resultadoimc = "<span style='color:red;'> Obesidade Grau III (Mórbida)";
+        }else if (imc >= 35){
+            resultadoimc = "<span style='color:red;'>Obesidade Grau II (Severa)";
+        }else if (imc >= 30){
+            resultadoimc = "<span style='color:red;'>Obesidade Grau I ()";
+        }else if (imc >= 35){
+            resultadoimc = "<span style='color:yellow;'>Levemente acima do peso";
+        }else if (imc >= 18.6){
+            resultadoimc = "<span style='color:green;'>Peso Ideal (Parabéns)";
+        }else{
+            resultadoimc = "<span style='color:red;'>Abaixo do Peso";
+        }
+        
+        document.write(
+            "<p>Nome: " + nome + "<br><br>" +
+            "Peso: " + peso + "<br><br>" +
+            "IMC" + imc + "<br><br>"
+            "Resultado: <strong>" + resultadoimc + "</strong></p>"
+        )
+
+        
+    </script>
+
+</body>
+
+</html>

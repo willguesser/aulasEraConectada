@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 12 Estrutura de repetição - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>for</h1><br>
+    <h2>Cadastro de Nome e Idade</h2><br>
+
+    <script>
+        var num;
+        var nome;
+        var idade;
+
+        for (num = 1; num < 5; num++) {
+            nome = prompt("Digite seu nome");
+            idade = prompt("Digite aqui a idade");
+
+            document.write(
+                "<p><strong>Cadastro nº " + num + "</strong><br>" +
+                "Nome: " + nome + "<br>" +
+                "Idade: " + idade + " anos. </p><br>");
+
+        }
+
+    </script>
+
+</body>
+
+</html>

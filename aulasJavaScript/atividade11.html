@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 11 - JavaScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Cadastro de Nome e Idade</h1>
+
+    <script>
+        var num = 1;
+        var nome;
+        var idade;
+
+        while (num < 5) {
+            nome = prompt("Digite seu nome");
+            idade = prompt("Digite aqui a idade");
+
+            document.write(
+                "<p><strong>Cadastro nº " + num + "</strong><br>" +
+                "Nome: " + nome + "<br>" +
+                "Idade: " + idade + " anos </p><br>");
+            num++;
+
+        }
+
+    </script>
+
+</body>
+
+</html>

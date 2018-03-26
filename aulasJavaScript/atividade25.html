@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 25 Formulário - JavaScript</title>
+    <meta charset="utf-8">
+    <script>
+        cidade=new Array(5);
+        cidade[0]="Florianópolis";
+        cidade[1]="Palhoça";
+        cidade[2]="São José";
+        cidade[3]="Santo Amaro da Imperatriz";
+        cidade[4]="Biguaçu";
+        cidade[5]="São Pedro de Alcântara";
+
+        function matriz(){
+            var cid=formulario.numero.value;
+            alert(cidade[cid]);
+        }
+
+    </script>
+</head>
+
+<body>
+    <form name="formulario">
+        <p>Digite um número de 0 a 5:</p>
+        <p>
+            <input type="text" size="3" name="numero">
+            <input type="button" value="OK" onClick="matriz()">
+        </p>
+    </form>
+</body>
+
+</html>
