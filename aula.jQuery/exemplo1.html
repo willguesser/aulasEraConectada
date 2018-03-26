@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo 1 - jQuery</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("p").click(function() {
+                $(this).hide();
+            })
+        });
+
+        $(document).ready(function() {
+            $(".mostrar").click(function() {
+                $("p").show();
+            })
+        });
+
+    </script>
+</head>
+
+<body>
+    <h1 style="text-align: center">$(element).hide() - $(element).show()</h1><br>
+    <p>Primeiro parágrafo</p>
+    <p>Segundo parágrafo</p>
+    <p>Terceiro parágrafo</p>
+    <div><a href="#" class="mostrar">Mostrar parágrafos</a></div>
+
+</body>
+
+</html>
