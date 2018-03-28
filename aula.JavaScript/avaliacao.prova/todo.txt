@@ -1,4 +1,27 @@
-- 1 - Crie uma função que altera a cor do plano de fundo do documento para azul(qualquer tom).
-- 2 - Crie um sistema que registre dados de 3 funcionários.
-- 3 - Crie um formulário que adicione o nome e idade de 3 pessoas. No final exiba na tela o nome registrado, idade e a média das idades.
+# Teste 1
++ Crie uma função que altera a cor do plano de fundo do documento para azul (ou qualquer tom).
+
+# Teste 2 - Sistema que registra dados de 3 funcionários.
+- Idade
+- Cargo
+- Salário Bruto
+- Valor de desconto do vale transporte (6% do salário)
+- Valor do INSS sob as condições
+- - COND: Salario maior que R$ 5.000,00 desconta 11%
+- - COND: Salario maior que entre R$ 3.000,00 e R$ 4.999.99 descontar 8%
+- - COND: Salaio menor que R$ 3.000,00 descontar 3%
+- Salario Líquido (salario Bruto subtraindo os descontos)
+
+# Teste 3 - Crie um formulário que adicione 3 pessoas.
+- Nome
+- Idade
+- Exibir na tela final o nome registrado, idade e a média das idades.
+
+# Teste 4 - Crie um sistema de Boas Vindas.
+- Nome da pessoa.
+- Em seguida exiba na tela. "Bom dia 'nomedapessoa'! Hoje é 'dataatual'".
+
+# Teste 5 - Crie um sistema de vendas
+- Calcular o preço de 5 produtos (sapato, calça, camiseta, vestido e meias)
+- Abrir condições de parcelamento.
 
