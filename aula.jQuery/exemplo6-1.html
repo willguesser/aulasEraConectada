@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo 6 - jQuery</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                var x = $("div");
+                
+                
+                x.animate({
+                    left:"100px",
+                    height: "300px",
+                    opacity: "0.4"
+                }, "slow");
+
+                x.animate({
+                    width: "300px",
+                    opacity: "0.8"
+                }, "slow");
+
+                x.animate({
+                    height: "100px",
+                    opacity: "0.4"
+                }, "slow");
+
+                x.animate({
+                    width: "100px",
+                    opacity: "0.8"
+                }, "slow");
+                x.animate({
+                    left: "0px"
+                })
+            });
+        });
+
+    </script>
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <button>Começar animação</button>
+
+    <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Manduma pindureta quium dia nois paga. Casamentiss faiz malandris se pirulitá. Detraxit consequat et quo num tendi nada. Quem num gosta di mé, boa gentis num é. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Mé faiz elementum girarzis, nisi eros vermeio.</p>
+
+    <div style="background: aqua; height: 100px; width: 100px; position: relative;"></div>
+</body>
+
+</html>

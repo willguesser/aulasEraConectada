@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo 5 - jQuery</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".animar").click(function(){
+                $("#caixa").animate({
+                    left:"+=100px"});
+            });
+        });
+
+    </script>
+    <style>
+        
+
+    </style>
+</head>
+
+<body>
+    <p><a href="#" class="animar">Clique para animar</a></p>
+    <div id="caixa" style="width: 100px; height: 100px; background-color: aqua; position: relative;"></div>
+</body>
+
+</html>
