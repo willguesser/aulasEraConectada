@@ -29,7 +29,7 @@
             //  Only accepts boolean true/false.
             //  O controle deslizante deve se mover sozinho ou somente quando você interage com o nav / arrows?
             //  Só aceita booleano verdadeiro (true) / falso (false).
-            autoplay: true,
+            autoplay: false,
 
             //  delay between slides moving, pass as a number in milliseconds.
             //  segundos de atraso entre os slides se movendo, escreva o número em milissegundos.
