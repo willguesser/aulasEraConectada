@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+.navbar img{
+    width: 155px;
+    margin-left: 40px;
+}
+
 .navbar a {
     padding: 0;
 }
@@ -125,7 +130,7 @@ figure {
     height: 400px;
     position: relative;
     overflow: hidden;
-    margin: 20px 40px 40px 20px;
+    margin: 30px 30px 10px 40px;
 }
 
 figcaption {
@@ -141,4 +146,7 @@ figcaption {
     line-height: 55px;
     height: 55px;
     z-index: 5
+}
+.entresecoes{
+    margin: 50px
 }
